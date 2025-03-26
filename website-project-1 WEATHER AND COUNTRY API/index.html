@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather and Country Info</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="javascript.js" ></script> 
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="w3-light-grey">
+
+    <!-- Header -->
+    <header class="w3-container w3-teal w3-padding-32 w3-center">
+        <h1 class="w3-text-white w3-animate-top">Weather and Country Info</h1>
+    </header>
+
+    <!-- Search Bar for Country -->
+    <div class="w3-container w3-center w3-padding-32">
+        <div class="w3-card-4 w3-padding-32" style="background-color: #E1F5FE;" 
+             class="w3-round-xlarge  w3-max-width-large w3-margin-auto">
+            <label for="search" class="w3-text-dark-grey w3-large">Search for a Country or Capital:</label>
+            <input type="text" id="search" class="w3-input w3-border w3-round w3-margin-bottom" placeholder="Enter country or capital" />
+            <button id="searchButton" class="w3-button w3-indigo w3-round w3-hover-shadow" onclick="searchCountry()">Search for Country and Weather</button>
+            <button id="resetButton" class="w3-button w3-red w3-round w3-hover-shadow" onclick="reset()">Reset All</button>
+
+        </div>
+    </div>
+
+    <!-- Country Data Section  -->
+    <div class="w3-container w3-padding-32 w3-center">
+        <h2 class="w3-text-teal">Country Data</h2>
+        <div id="countryData" class="w3-row-padding w3-margin-top">
+            
+    </div>
+
+    <!-- Weather Data Section -->
+    <div class="w3-container w3-padding-32 w3-center w3-light-blue">
+        <h2 class="w3-text-white">Weather Forecast</h2>
+        <div id="weatherData" class="w3-row-padding"></div>
+
+    </div>
+	<!-- Bar Chart Section -->
+	<div class="w3-container w3-padding-32">
+		<canvas id="weatherChart"></canvas>
+		</div>
+
+
+</body>
+
+</html>
