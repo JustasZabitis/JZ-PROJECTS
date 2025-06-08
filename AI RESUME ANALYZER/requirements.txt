@@ -13,3 +13,7 @@ python-docx==0.8.11
 # Development (Optional)
 python-dotenv==1.0.0  # For environment variables
 pytest==7.4.0         # Testing
+
+
+# Deployment
+gunicorn==21.2.0
