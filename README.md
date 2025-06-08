@@ -10,6 +10,8 @@ This repository contains various projects I worked on during my college coursewo
 📂 Projects Included
 🔹 Python Projects
 
+    AI Resume Analyzer - Python based anayzler that checks keywords in a cv while using JavaScript front-end.
+    
     Travel Planner – A Python-based tool to help users plan their trips efficiently.
 
     Workout Tracker – A program to log and analyze workout sessions.
@@ -25,6 +27,12 @@ This repository contains various projects I worked on during my college coursewo
     HTML, JavaScript (Frontend Development)
 
     APIs (Weather API, Geolocation API)
+
+    Flask
+
+    JavaScript
+
+    python-docx
 
 🚀 How to Use
 
