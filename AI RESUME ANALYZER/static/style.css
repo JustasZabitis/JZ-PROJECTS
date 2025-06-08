@@ -1,0 +1,95 @@
+:root {
+    --primary: #4e73df;
+    --primary-light: #e1e8ff;
+    --secondary: #f8f9fc;
+    --dark: #5a5c69;
+    --light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--secondary);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.upload-area {
+    border: 2px dashed #d1d3e2;
+    border-radius: 0.5rem;
+    background: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.upload-area:hover, .upload-area.dragover {
+    border-color: var(--primary);
+    background-color: rgba(78, 115, 223, 0.03);
+}
+
+.file-name-display {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background: rgba(0,0,0,0.03);
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.skill-badge {
+    background-color: var(--primary-light);
+    color: var(--primary);
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.suggestion-item {
+    border-left: 3px solid var(--primary);
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    height: 1rem;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    background-color: var(--primary);
+    transition: width 0.6s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #3a5ccc;
+    border-color: #3a5ccc;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.25rem !important;
+    }
+    .upload-area {
+        padding: 2rem 1rem !important;
+    }
+}
