@@ -17,3 +17,11 @@ An AI-powered web application that analyzes resumes and provides skill insights 
 **NLP**: spaCy  
 **PDF Processing**: PyPDF2  
 **DOCX Processing**: python-docx
+
+
+## Installation requirments
+
+One command line :
+# Windows: `venv\Scripts\activate`
+pip install -r requirements.txt && python -m spacy download en_core_web_sm
+flask run
