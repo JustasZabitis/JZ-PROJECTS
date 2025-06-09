@@ -17,6 +17,7 @@ This repository contains various projects I worked on during my college coursewo
 🔹 Web Development Projects
 
     Weather & Country Info Website – A simple web app displaying weather updates and country details.
+    View This Project - https://jz-weather-api.onrender.com/
 
 
 🔹 Full Stack Projects
