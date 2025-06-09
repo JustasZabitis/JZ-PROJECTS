@@ -3,7 +3,8 @@ const $ = function (selector) { return document.querySelector(selector); };
 
 
 // fetch country names and its up here to make sure it loads first
-fetch('https://restcountries.com/v3.1/all')
+fetch('https://restcountries.com/v3.1/all?fields=name,capital,region,subregion,population,flags,currencies,languages,latlng')
+
 .then(response => response.json()) 
 .then(json => {
     countriesData = json;  
