@@ -21,9 +21,11 @@ This repository contains various projects I worked on during my college coursewo
 
 🔹 Full Stack Projects
 
-    AI Resume Analyzer - Python based anayzler that checks keywords in a cv while using JavaScript front-end.
+    AI Resume Analyzer - Python based anayzler that checks keywords in a cv while using JavaScript front-end.    
+    View This Project - https://jz-projects.onrender.com
 
     Job Tracker - Python based tracker that uses an Api with key words and parameters while using JavaScript front-end.
+    View This Project - https://jz-job-tracker.onrender.com
 
 
 🛠 Technologies Used
@@ -32,7 +34,7 @@ This repository contains various projects I worked on during my college coursewo
 
     HTML, JavaScript (Frontend Development)
 
-    APIs (Weather API, Geolocation API, Job APi's)
+    APIs (Weather API, Geolocation API, Job APi's)  !!!! (IF 429 error is encountered it means that the api has reached its daily/weekly/monthly limit) !!!
 
     Flask
 
