@@ -9,8 +9,6 @@ This repository contains various projects I worked on during my college coursewo
 
 📂 Projects Included
 🔹 Python Projects
-
-    AI Resume Analyzer - Python based anayzler that checks keywords in a cv while using JavaScript front-end.
     
     Travel Planner – A Python-based tool to help users plan their trips efficiently.
 
@@ -20,19 +18,31 @@ This repository contains various projects I worked on during my college coursewo
 
     Weather & Country Info Website – A simple web app displaying weather updates and country details.
 
+
+🔹 Full Stack Projects
+
+    AI Resume Analyzer - Python based anayzler that checks keywords in a cv while using JavaScript front-end.
+
+    Job Tracker - Python based tracker that uses an Api with key words and parameters while using JavaScript front-end.
+
+
 🛠 Technologies Used
 
     Python
 
     HTML, JavaScript (Frontend Development)
 
-    APIs (Weather API, Geolocation API)
+    APIs (Weather API, Geolocation API, Job APi's)
 
     Flask
 
     JavaScript
 
     python-docx
+
+    Postman
+
+    Ai Assistance
 
 🚀 How to Use
 
@@ -49,3 +59,7 @@ Run Python projects:
 python Python Project A00320456
 
 Open web projects by launching index.html in a browser.
+
+
+
+
