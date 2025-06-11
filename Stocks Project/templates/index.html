@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock & Crypto Visualizer</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1"></script>
+</head>
+<body>
+
+  <h1>📈 Stock & Crypto Visualizer</h1>
+
+  <div class="controls">
+    <div>
+      <label for="symbol">Asset:</label>
+      <select id="symbol">
+        <optgroup label="Stocks">
+          <option value="TSLA">Tesla</option>
+          <option value="NVDA">Nvidia</option>
+          <option value="AAPL">Apple</option>
+          <option value="AMZN">Amazon</option>
+          <option value="GOOGL">Google</option>
+          <option value="MSFT">Microsoft</option>
+          <option value="META">Meta</option>
+          <option value="NFLX">Netflix</option>
+          <option value="AMD">AMD</option>
+          <option value="INTC">Intel</option>
+        </optgroup>
+        <optgroup label="Cryptos">
+          <option value="BTC-USD">Bitcoin</option>
+          <option value="ETH-USD">Ethereum</option>
+          <option value="SOL-USD">Solana</option>
+          <option value="XRP-USD">XRP</option>
+          <option value="DOGE-USD">Dogecoin</option>
+          <option value="ADA-USD">Cardano</option>
+          <option value="LINK-USD">Chainlink</option>
+          <option value="DOT-USD">Polkadot</option>
+          <option value="LTC-USD">Litecoin</option>
+          <option value="UNI-USD">Uniswap</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div>
+      <label for="range">Time Range:</label>
+      <select id="range">
+        <option value="5d">5 Days</option>
+        <option value="1mo">1 Month</option>
+        <option value="3mo">3 Months</option>
+        <option value="6mo">6 Months</option>
+        <option value="1y">1 Year</option>
+      </select>
+    </div>
+
+    <button onclick="fetchStock()">📊 Load Chart</button>
+    <button onclick="resetZoom()">🔄 Reset Zoom</button>
+  </div>
+
+  <h3 id="live-price">Latest Price: --</h3>
+
+  <div id="chart-container">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
