@@ -28,12 +28,18 @@ This repository contains various projects I worked on during my college coursewo
     Job Tracker - Python based tracker that uses an Api with key words and parameters while using JavaScript front-end.
     View This Project - https://jz-job-tracker.onrender.com
 
+    Stock Viewer - A responsive web application that lets users view historical stock and cryptocurrency price charts.
+    View This Project - 
+
+
 
 🛠 Technologies Used
 
     Python
 
     HTML, JavaScript (Frontend Development)
+
+    Chart.js
 
     APIs (Weather API, Geolocation API, Job APi's)  !!!! (IF 429 error is encountered it means that the api has reached its daily/weekly/monthly limit) !!!
 
