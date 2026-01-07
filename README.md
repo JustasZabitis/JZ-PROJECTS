@@ -29,7 +29,7 @@ This repository contains various projects I worked on during my college coursewo
     View This Project - https://jz-job-tracker.onrender.com
 
     Stock Viewer - A responsive web application that lets users view historical stock and cryptocurrency price charts.
-    View This Project - 
+    View This Project - https://jz-stock-viewer.onrender.com/
 
 
 
