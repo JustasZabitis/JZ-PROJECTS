@@ -45,14 +45,19 @@ This repository contains various projects I worked on during my college coursewo
     Stock Viewer – A responsive web application that lets users view historical stock and cryptocurrency price charts.  
     View This Project - https://jz-stock-viewer.onrender.com/
 
+    AI Spending Behavior Analyst - Local AI-powered app that analyzes spending habits using a large language model.  
+    Built with Flask, HTML/CSS, and a locally hosted LLM (Ollama).
+    (Runs locally; screenshots included in project folder.)
+
 
 🛠 Technologies Used
 
     Python
     Machine Learning (Scikit-learn)
+    LLM (Ollama)
     Tkinter
     SQLite
-    HTML, JavaScript (Frontend Development)
+    HTML, JavaScript , css (Frontend Development)
     Chart.js
     APIs (Weather API, Geolocation API, Job APIs)
     Flask
@@ -81,7 +86,7 @@ This repository contains various projects I worked on during my college coursewo
 
     Run Python projects:
 
-        python main.py
+        python (filename.py)
 
     Run Web / PHP projects:
 
