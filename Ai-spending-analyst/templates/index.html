@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Page title shown in browser tab -->
+  <title>AI Spending Analyst</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- Main app container to keep everything centered -->
+<div class="app">
+
+  <!-- App heading -->
+  <h1>AI Spending Behavior Analyst</h1>
+
+  <!-- Short explanation under the title -->
+  <p class="subtitle">
+    Understand your spending patterns through AI reasoning
+  </p>
+
+  <!-- Card for CSV upload -->
+  <div class="card">
+
+    <!-- Styled label acts as the file picker -->
+    <label class="file-label">
+      Upload transaction CSV
+      <!-- Hidden file input -->
+      <input type="file" id="csv">
+    </label>
+
+    <!-- Button that triggers CSV analysis -->
+    <button onclick="upload()">Analyze</button>
+  </div>
+
+  <!-- Chat / interaction area -->
+  <div class="chat">
+
+    <!-- This box is where the AI responses will appear -->
+    <div id="ai-response" class="ai-box">
+
+      <!-- Placeholder text shown before any AI output -->
+      <p class="placeholder">
+        AI insights will appear here after you upload data or ask a question.
+      </p>
+    </div>
+
+    <!-- Input row: user types question + sends it -->
+    <div class="input-row">
+
+      <!-- User message input -->
+      <textarea
+        id="message"
+        placeholder="Ask about your spending patterns..."
+      ></textarea>
+
+      <!-- Send button -->
+      <button onclick="ask()">Send</button>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Frontend logic -->
+<script src="/static/script.js"></script>
+</body>
+</html>

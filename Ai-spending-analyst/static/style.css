@@ -1,0 +1,122 @@
+/* 
+  Basic reset so spacing behaves consistently 
+*/
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Page background and default text color */
+body {
+  margin: 0;
+  background: #0f172a; /* dark blue */
+  color: #e5e7eb;
+}
+
+/* Main app wrapper */
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Main title */
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Subtitle under the title */
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+/* Card used for CSV upload */
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/* Custom-looking file input */
+.file-label {
+  background: #1e293b;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hide the actual file input */
+.file-label input {
+  display: none;
+}
+
+/* General button styling */
+button {
+  background: #6366f1; /* indigo accent */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Subtle hover effect */
+button:hover {
+  opacity: 0.9;
+}
+
+/* Chat container */
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* AI response area */
+.ai-box {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 200px;
+  white-space: pre-wrap; /* preserve AI formatting */
+  line-height: 1.6;
+}
+
+/* Placeholder text styling */
+.placeholder {
+  color: #64748b;
+}
+
+/* Input row (textarea + send button) */
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* User text input */
+textarea {
+  flex: 1;
+  resize: none;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  background: #020617;
+  color: #e5e7eb;
+  height: 80px;
+}
+
+/* Placeholder inside textarea */
+textarea::placeholder {
+  color: #64748b;
+}
