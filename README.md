@@ -52,6 +52,12 @@ View This Project - https://jz-stock-viewer.onrender.com/
 Built with Flask, HTML/CSS, and a locally hosted LLM (Ollama).  
 (Runs locally; screenshots included in project folder.)
 
+- [AI Website Generator](./ai-website-generator) – A local AI-powered web application that generates full HTML/CSS websites from natural language prompts.  
+Features a ChatGPT-style interface with live preview updates, save-to-file functionality, and a “Back to Generator” option.  
+Built with Flask, JavaScript, HTML/CSS, and a locally hosted LLM using Ollama.  
+(Runs locally; screenshots included in project folder.)
+
+
 ---
 
 ## 🛠 Technologies Used
